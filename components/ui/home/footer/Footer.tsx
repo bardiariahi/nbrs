@@ -49,7 +49,11 @@ const Footer = () => {
         </nav>
       </div>
       <div className="mx-auto">
-      توسعه یافته با ❤️ توسط بردیا ریاحی | ۱۴۰۲  &copy;
+      <span className="flex gap-1">
+      توسعه یافته با ❤️ توسط 
+        <a className="font-bold hover:text-blue-600 " href="https://bardiariahi.ir/">بردیا ریاحی</a>
+       | ۱۴۰۲  &copy;
+      </span>
       </div>
     </footer>
   );
