@@ -7,7 +7,7 @@ import { IoLogoStackoverflow } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <footer className="footer p-10 bg-gray-300 dark:bg-neutral text-black dark:text-neutral-content">
+    <footer className="footer p-10 pb-2 bg-gray-300 dark:bg-neutral text-black dark:text-neutral-content flex flex-col w-full">
       <div className="flex w-full justify-between ">
         <nav className="w-1/3">
           <header className="footer-title">شبکه‌ها اجتمایی</header>
@@ -47,6 +47,9 @@ const Footer = () => {
             <a className="link link-hover">Jobs</a>
             <a className="link link-hover">Press kit</a>
         </nav>
+      </div>
+      <div className="mx-auto">
+      توسعه یافته با ❤️ توسط بردیا ریاحی | ۱۴۰۲  &copy;
       </div>
     </footer>
   );
