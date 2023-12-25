@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+  .dark\:bg-white {
+    background-color: white;
+  }
+}
+@font-face {
+  font-family: IRANSANS;
+  src: url('../public/styles/fonts/iransans/IRANSansWeb(FaNum).woff');
+}
+@font-face {
+  font-family: IRANSANSUltraLight;
+  src: url('../public/styles/fonts/iransans/IRANSansWeb(FaNum)_UltraLight.woff');
+}
+@font-face {
+  font-family: IRANSANSLight;
+  src: url('../public/styles/fonts/iransans/IRANSansWeb(FaNum)_Light.woff');
+}
+@font-face {
+  font-family: IRANSANSMedium;
+  src: url('../public/styles/fonts/iransans/IRANSansWeb(FaNum)_Medium.woff');
+}
+@font-face {
+  font-family: IRANSANSBold;
+  src: url('../public/styles/fonts/iransans/IRANSansWeb(FaNum)_Bold.woff');
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+    min-height: 100vh;
+    direction: rtl;
+    font-family: IRANSANS;
+}
