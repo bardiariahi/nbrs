@@ -1,5 +1,5 @@
 "use client";
-import Lottie from "react-lottie";
+// import Lottie from "react-lottie";
 import animationData from "../../../public/styles/lotties/about.json";
 
 type HTypes = {};
