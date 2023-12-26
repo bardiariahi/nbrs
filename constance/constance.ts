@@ -30,3 +30,9 @@ export const MENU = [
         path: "/learn"
     }
 ]
+
+export const aboutme = [
+    {
+        
+    }
+]
