@@ -29,7 +29,7 @@ const MainAboutMe = () => {
           </RightBottomWhitePortfolioBox>
         </div>
         <div className="flex flex-row-reverse">
-            <LeftTopWhitePortfolioBox>
+            <LeftTopWhitePortfolioBox dir="ltr">
                  <span className="text-justify">
                 My name is Bardia Riahi. I had a special interest in computers
                 since I was a child and I had success in this field as a teenager.
@@ -42,7 +42,7 @@ const MainAboutMe = () => {
         </div>
         <CustomTitles englishTitle="my skills" persianTitle="تجربیا من" />
         <div className="flex flex-row-reverse pt-10">
-          <RightBottomReverseWhitePortfolioBox>
+          <RightBottomReverseWhitePortfolioBox dir="ltr">
             <span className="text-justify">
               {/* من بردیا ریاحی هستم از دوران کودکی علاقه‌ی خاصی به کامپیوتر داشتم
               و در نوجوانی هم در این زمینه موفقیت هایی هم داشتم دانشگاه نیز به
@@ -52,7 +52,7 @@ const MainAboutMe = () => {
               کردم و چند وقت بعد مشغول به کار شدم پس از مدتی تصمیم به فعالیت در
               زمینه‌ی برنامه نویسی گرفتم سپس وارد فیلد فرانت اند و طراحی سایت
               شدم و از این کار خوشم اومد */}
-              Lorem ipsum dolor sit amet , obcaecati fugit molestias qui asperiores voluptatem, deleniti aperiam culpa veniam inventore recusandae eaque totam rerum. Beatae ipsam voluptates nihil ipsa, est sequi reprehenderit quidem voluptatum eligendi possimus ex quisquam dicta at ad, autem cumque ratione soluta nam. Neque exercitationem voluptas ipsam cumque. Unde magni iure repellat corrupti eos nihil pariatur impedit quibusdam modi maxime quaerat expedita, maiores distinctio quis itaque temporibus voluptatibus ad atque nemo doloremque quidem voluptate! Reprehenderit veniam expedita quam at sit consequuntur amet ea hic sequi voluptatem ab perferendis, maiores numquam, temporibus sed impedit magnam voluptate minima suscipit necessitatibus neque? Sint, ipsum. Nesciunt necessitatibus voluptate iusto sit, quibusdam voluptatem temporibus suscipit quidem magni veritatis ad voluptas obcaecati, architecto sequi. Quis ratione nesciunt alias in ab vel iure, ipsa, molestias esse quo corrupti magni aliquid commodi voluptatibus cum corporis expedita, laborum laudantium molestiae iusto. Quis corporis blanditiis delectus repellat obcaecati odit illo est ab commodi ad veniam saepe fuga repellendus, tempora vero sunt deserunt incidunt. Voluptates iusto quidem ad.
+              11Lorem ipsum dolor sit amet , obcaecati fugit molestias qui asperiores voluptatem, deleniti aperiam culpa veniam inventore recusandae eaque totam rerum. Beatae ipsam voluptates nihil ipsa, est sequi reprehenderit quidem voluptatum eligendi possimus ex quisquam dicta at ad, autem cumque ratione soluta nam. Neque exercitationem voluptas ipsam cumque. Unde magni iure repellat corrupti eos nihil pariatur impedit quibusdam modi maxime quaerat expedita, maiores distinctio quis itaque temporibus voluptatibus ad atque nemo doloremque quidem voluptate! Reprehenderit veniam expedita quam at sit consequuntur amet ea hic sequi voluptatem ab perferendis, maiores numquam, temporibus sed impedit magnam voluptate minima suscipit necessitatibus neque? Sint, ipsum. Nesciunt necessitatibus voluptate iusto sit, quibusdam voluptatem temporibus suscipit quidem magni veritatis ad voluptas obcaecati, architecto sequi. Quis ratione nesciunt alias in ab vel iure, ipsa, molestias esse quo corrupti magni aliquid commodi voluptatibus cum corporis expedita, laborum laudantium molestiae iusto. Quis corporis blanditiis delectus repellat obcaecati odit illo est ab commodi ad veniam saepe fuga repellendus, tempora vero sunt deserunt incidunt. Voluptates iusto quidem ad.
             </span>
           </RightBottomReverseWhitePortfolioBox>
         </div>

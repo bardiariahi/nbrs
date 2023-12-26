@@ -1,10 +1,11 @@
 type RWPBTypes = {
   children: any;
+  dir?: "rtl" | "ltr"
 };
 
-const RightBottomWhitePortfolioBox: React.FC<RWPBTypes> = ({ children }) => {
+const RightBottomWhitePortfolioBox: React.FC<RWPBTypes> = ({ children , dir="rtl" }) => {
   return (
-    <div className="w-1/2 p-6 bg-white dark:bg-gray-500 rounded-t-3xl text-justify rounded-br-3xl ps-10">
+    <div dir={dir} className="w-1/2 p-6 bg-white dark:bg-gray-500 rounded-t-3xl text-justify rounded-br-3xl ps-10">
       {children}
     </div>
   );
