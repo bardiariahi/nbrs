@@ -51,7 +51,7 @@ const Footer = () => {
       <div className="mx-auto">
       <span className="flex gap-1">
       توسعه یافته با ❤️ توسط 
-        <a className="font-bold hover:text-blue-600 " href="https://bardiariahi.ir/">بردیا ریاحی</a>
+        <a className="font-bold hover:text-blue-600 duration-300" href="https://bardiariahi.ir/">بردیا ریاحی</a>
        | ۱۴۰۲  &copy;
       </span>
       </div>
