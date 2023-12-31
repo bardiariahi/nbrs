@@ -1,9 +1,7 @@
-import MainBusness from "@/components/ui/business/MainBusness"
+import MainBusiness from "@/components/ui/business/MainBusness";
 
 const page = () => {
-  return (
-    <MainBusness /> 
-  )
-}
+    return <MainBusiness />;
+};
 
-export default page
+export default page;
