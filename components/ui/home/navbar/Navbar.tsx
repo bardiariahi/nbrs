@@ -15,7 +15,7 @@ const Navbar: React.FC<NTypes> = ({
  
   return (
     <nav
-      className={`navbar sticky top-0 shadow-xl bg-base-300 dark:bg-neutral dark:text-neutral-content`}>
+      className={`navbar sticky top-0 shadow-xl bg-gray-400 dark:bg-neutral dark:text-neutral-content`}>
       <div className="flex w-full justify-between flex-row-reverse	">
         <div className="flex order-2 md:order-1">
           <div className="h-10 w-10 grid">
@@ -28,7 +28,7 @@ const Navbar: React.FC<NTypes> = ({
             <Link key={link.id} href={link.path}>
               <span 
                 className={classNames({
-                  "hover:text-blue-400 duration-300 text-lg" : true,
+                  "hover:text-blue-600 duration-300 text-lg" : true,
                   "font-bold text-blue-600" : currentPath === link.path
                 })}
               >

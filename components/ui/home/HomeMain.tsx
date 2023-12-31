@@ -51,13 +51,13 @@ const HomeMain: React.FC<HTypes> = ({}) => {
               </p>
             </div>
             <div className="w-full">
-              <Image alt="front end developer image" src="/styles/images/hero1.png" height={500} width={1000} />
+              <Image draggable="false" alt="front end developer image" src="/styles/images/hero1.png" height={500} width={1000} />
             </div>
           </div>
 
           <div className="flex w-full gap-4 pt-10">
             <div className="w-full">
-            <Image alt="back end developer image" src="/styles/images/hero2.png" height={500} width={1000} />
+            <Image draggable="false" alt="back end developer image" src="/styles/images/hero2.png" height={500} width={1000} />
             </div>
             <div className="w-full">
               <b className="text-lg font-bold">&rdquo;back-end developer&rdquo;</b>
@@ -79,12 +79,12 @@ const HomeMain: React.FC<HTypes> = ({}) => {
               </p>
             </div>
             <div className="w-full">
-            <Image alt="fullstack developer image" src="/styles/images/hero3.png" height={500} width={1000} />
+            <Image draggable="false" alt="fullstack developer image" src="/styles/images/hero3.png" height={500} width={1000} />
             </div>
           </div>
 
           <div className="pt-10">
-            <Image alt="developer image" src="/styles/images/bg-development.jpg" height={500} width={1000} />
+            <Image draggable="false" alt="developer image" src="/styles/images/bg-development.jpg" height={500} width={1000} />
           </div>
 
           <div className="pt-10">
