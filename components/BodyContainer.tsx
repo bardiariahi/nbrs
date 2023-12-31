@@ -8,7 +8,7 @@ const BodyContainer:React.FC<BTypes> = ({
     className
 }) => {
   return (
-    <div className={className ? className : "p-4 bg-gray-200 dark:bg-black"}>{children}</div>
+    <div className={className ? className : "p-4 bg-white dark:bg-zinc-900 text-black dark:text-white"}>{children}</div>
   )
 }
 
