@@ -28,6 +28,12 @@ export const MENU = [
         title: "آموزش",
         name: "learn",
         path: "/learn"
+    },
+    {
+        id: "menu-0",
+        title: "کسب و کارها",
+        name: "business",
+        path: "/business"
     }
 ]
 
