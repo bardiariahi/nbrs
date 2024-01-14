@@ -15,7 +15,7 @@ const Navbar: React.FC<NTypes> = ({
  
   return (
     <nav
-      className={`navbar sticky top-0 shadow-xl bg-base-300 dark:bg-neutral dark:text-neutral-content`}>
+      className={`navbar sticky z-40 top-0 shadow-xl bg-base-300 dark:bg-neutral dark:text-neutral-content`}>
       <div className="flex w-full justify-between flex-row-reverse	">
         <div className="flex order-2 md:order-1">
           <div className="h-10 w-10 grid">

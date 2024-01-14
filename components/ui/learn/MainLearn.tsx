@@ -1,8 +1,14 @@
+import BorderCornersBold from "@/components/BorderCornersBold"
 
 const MainLearn = () => {
   return (
-    <div>MainLearn</div>
-  )
+    <>
+    <p>test</p>
+    <BorderCornersBold bgColor="bg-transparent" borderColor="border-gray-600">
+      aaa
+    </BorderCornersBold>
+    </>
+    )
 }
 
 export default MainLearn

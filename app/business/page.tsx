@@ -1,8 +1,8 @@
-import MainBusness from "@/components/ui/business/MainBusness"
+import MainBusiness from "@/components/ui/business/MainBusiness"
 
 const page = () => {
   return (
-    <MainBusness /> 
+    <MainBusiness /> 
   )
 }
 
